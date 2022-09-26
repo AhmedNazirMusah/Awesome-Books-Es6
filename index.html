@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awesome Books</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav>
+      <p>Awesome Books</p>
+      <ul class="nav-list">
+          <li><a class="list" href="#">List</a></li>
+          <li><a class="add" href="#">Add new</a></li>
+          <li><a class="contact" href="#">Contact</a></li>
+      </ul>
+  </nav>
+  <div class="date"></div>
+  <section class="books-section">
+    <h1 class="title">Awesome Books</h1>
+    <div class="display-books"></div>
+  </section>
+    <br />
+    <section class="add-book-section d-none">
+      <h3 class="sub-title">Add a new book</h3>
+        <form class="add-book-form">
+          <input type="text" class="author-input" placeholder="Author" />
+          <br />
+          <input type="text" class="title-input" placeholder="Title" />
+          <br />
+          <button class="btn-add">Add</button>
+        </form>
+      </section>
+    <section class="contact-section d-none">
+      <h2>Contact information</h2>
+      <p>Do you have any any questions or you just want to say "hello"</p>
+      <ul>
+          <li>Our Email ...</li>
+          <li>Our Phone Number</li>
+          <li>Our Address...</li>
+      </ul>
+  </section>
+  <footer>
+    <p>CopyRight.....</p>
+  </footer>
+    <script type="module" src="modules/index.js"></script>
+  </body>
+</html>

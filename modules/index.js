@@ -60,4 +60,4 @@ contact.addEventListener('click', (e) => {
   ListSection.classList.add('d-none');
 });
 
-window.onload = setDate();
+setInterval(setDate, 1000);
